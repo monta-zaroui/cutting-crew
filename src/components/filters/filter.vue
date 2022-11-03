@@ -2,7 +2,7 @@
   <!-- Vue Router -->
   <div class="mt-16 pl-20">
     <h1 class="text-xl font-bold">Konfiguriere hier deinen Holzzuschnitt</h1>
-    <div class="flex items-center gap-20 mt-12">
+    <div class="flex items-center gap-20 mt-10">
       <h1 class="flex-none text-md font-bold">Dein Markt: </h1>
       <Dropdown class="flex-none" />
     </div>
