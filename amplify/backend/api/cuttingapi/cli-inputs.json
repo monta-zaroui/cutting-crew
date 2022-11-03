@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/article": {
+      "name": "/article",
+      "lambdaFunction": "cuttinglambda",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/materialtype": {
+      "name": "/materialtype",
+      "lambdaFunction": "cuttinglambda",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

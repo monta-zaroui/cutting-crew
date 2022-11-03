@@ -6,7 +6,7 @@ import HeroSection from "./components/hero-section/hero-section.vue";
 
 <template>
   <div id="app">
-    <HeroSection />
+    <router-view></router-view>
   </div>
 </template>
 

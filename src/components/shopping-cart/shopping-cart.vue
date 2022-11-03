@@ -3,10 +3,10 @@
     <div class="mx-auto">
       <div class="flex md:px-20 px-8 items-center  border-b-2 border-gray-100 py-6">
         <div class="flex w-1/6 justify-start lg:w-0 lg:flex-1">
-          <a href="#">
+          <router-link  to="/">
             <span class="sr-only">Your Company</span>
-            <img class="h-8 w-auto sm:h-10" src="src/assets/images/Obi.svg.png" alt="logo" />
-          </a>
+            <img class="h-8 w-auto sm:h-10" src="/src/assets/images/Obi.svg.png" alt="logo" />
+          </router-link>
         </div>
         <div class="hidden space-x-10 md:flex w-3/6">
           <SearchInput/>
@@ -133,7 +133,7 @@ const products = [
     color: 'Länge: 200mm Breite: 100mm',
     price: '$90.00',
     quantity: 2,
-    imageSrc: 'src/assets/images/holz.jpg',
+    imageSrc: '/src/assets/images/holz.jpg',
     imageAlt: 'Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.',
   },
   {
@@ -143,7 +143,7 @@ const products = [
     color: 'Länge: 200mm, Breite: 100mm',
     price: '$45.00',
     quantity: 1,
-    imageSrc: 'src/assets/images/holz.jpg',
+    imageSrc: '/src/assets/images/holz.jpg',
     imageAlt:
         'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
   },

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <img src="src/assets/images/jumbotron.png" class="rounded-lg mx-auto " alt="jumbotron">
+    <img src="/src/assets/images/jumbotron.png" class="rounded-lg mx-auto " alt="jumbotron">
   </div>
-  <div class="text-center pt-20 mx-auto lg:w-3/4 w-full ">
+  <div class="text-center pt-12 mx-auto lg:w-3/4 w-full ">
     <h1 class="mb-16 text-2xl font-bold tracking-tight text-gray-900 md:text-3xl lg:text-4xl dark:text-white">Wie funktioniert's ?</h1>
     <div class="grid grid-cols-3 gap-3 content-center mb-8">
       <div>
@@ -25,10 +25,12 @@
       </div>
     </div>
   </div>
-  <div class="py-8 text-center">
-    <button class="bg-orange-500 hover:bg-orange-700 shadow-xl text-white font-bold py-4 px-4 border border-orange-500 rounded" style="width: 300px" >
-      Zuschnitt-Konfigurator starten
-    </button>
+  <div class="py-6 text-center">
+    <router-link to="articles">
+      <button class="bg-orange-500 hover:bg-orange-700 shadow-xl text-white font-bold py-4 px-4 border border-orange-500 rounded" style="width: 300px" >
+        Zuschnitt-Konfigurator starten
+      </button>
+    </router-link>
   </div>
 </template>
 

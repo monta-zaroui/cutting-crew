@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cuttingcrew-dev-203541-authRole",
+      "UnauthRoleArn": "arn:aws:iam::851873149425:role/amplify-cuttingcrew-dev-203541-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::851873149425:role/amplify-cuttingcrew-dev-203541-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-cuttingcrew-dev-203541-deployment",
+      "UnauthRoleName": "amplify-cuttingcrew-dev-203541-unauthRole",
+      "StackName": "amplify-cuttingcrew-dev-203541",
+      "StackId": "arn:aws:cloudformation:eu-central-1:851873149425:stack/amplify-cuttingcrew-dev-203541/89983e20-5ae5-11ed-99c2-0242dc6826dc",
+      "AmplifyAppId": "d1vrg3y5sf97pc"
+    },
+    "categories": {
+      "auth": {
+        "cuttingcrew": {}
+      },
+      "function": {
+        "cuttinglambda": {
+          "deploymentBucketName": "amplify-cuttingcrew-dev-203541-deployment",
+          "s3Key": "amplify-builds/cuttinglambda-7067534a5358434d5356-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1vrg3y5sf97pc",
+          "type": "manual"
+        }
+      },
+      "api": {
+        "cuttingapi": {}
+      }
+    }
+  }
+}

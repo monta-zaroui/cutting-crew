@@ -22,7 +22,7 @@
                     class="absolute top-2 right-2 h-10 w-10 text-white bg-orange-400 rounded-full"
                     aria-hidden="true"
                 />
-                <img src="src/assets/images/holz.jpg" alt="holz">
+                <img src="/src/assets/images/holz.jpg" alt="holz">
               </div>
               <div class="text-center mt-6">
                 <span class="text-gray-900 font-semibold text-lg">Terrassendiele Kiefer Grau</span>

@@ -72,4 +72,12 @@ const selectMaterial = (material) => {
   })
   material.activated = true
 }
+
+import { API } from "aws-amplify";
+import {onMounted} from "vue";
+
+onMounted(async () => {
+  const materialTypes = await API.get('cuttingLambda', '/article', {});
+  console.log(materialTypes)
+});
 </script>
